@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Central Bank Survey Form</h2>
+    <p id="description">Thank you for taking the time to register with us</p>
+<form id="survey-form" action="#">
+    <fieldset>
+      <label id="name-label" for="name">First Name: <input id="name" type="text" name="name" placeholder="Enter Your First Name" required /></label>
+      <label id="name-label" for="name">Last Name: <input id="name" type="text" name="name" placeholder="Enter Your Last Name" required /></label>
+      <label id="email-label" for="email">Email: <input id="email" type="email" name="email" placeholder="Enter Your Email" required /></label>
+      <label id="number-label" for="number">Phone Number:<input id="number" type="text" name="age" placeholder="Enter Your Phone Number" /></label> <br>
+      <label id="number-label" for="number">Age: (optional)<input id="number" type="number" name="age" placeholder="Enter Your Age" min="13" max="120" /></label> <br>
+      <label id="password-label" for="password">Password<input id="password" type="password" name="age" placeholder="Enter Password" min="13" max="120" /></label> <br>
+      <label id="password-label" for="password">Confirm Password<input id="password" type="password" name="age" placeholder="Confirm Password" min="13" max="120" /></label> <br>
+      <label id="dob" for="dob">Date Of Birth:<input id="password" type="date" name="dob" placeholder="DOB" /></label> <br>
+      <label id="bvn" for="bvn">BVN:<input id="number" type="number" name="bvn" placeholder="Enter Your BVN" /></label> <br>
+      <label id="acct" for="acct">BVN:<input id="number" type="text" name="acct" placeholder="Enter Your bank account number" /></label> <br>
+
+      <label id="state" for="state">State of Origin: <input id="name" type="text" name="state-name" placeholder="State of origin" required /></label>
+      
+      <fieldset>
+
+        <label for="referrer">Gender: <br>
+          <input id="referrer" type="radio" name="m-y-n" value="male" />Male <br>
+          <input id="referrer" type="radio" name="m-y-n" value="female" />Female<br>
+          <input id= referrer" type="radio" name="m-y-n" value="no" />Prefer not to say <br>
+          <br>
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <label for="referrer">Marital Status: <br>
+          <input id="referrer" type="radio" name="m-y-n" value="marriede" />Married <br>
+          <input id="referrer" type="radio" name="m-y-n" value="single" />Single<br>
+          <input id= referrer" type="radio" name="m-y-n" value="engaged" />Engaged <br>
+        </label>
+      </fieldset>
+      
+      
+
+      <fieldset>
+        <label for="comments">Brief Description of Yourself</label>
+          <textarea id="comments" placeholder="Tell us About yourself"></textarea>
+          <input id="submit" type="submit" name="Submit"/>
+        </fieldset>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown" >Type of account? <br>
+       <select id="dropdown">
+        <option>select one</option>
+        <option>Savings</option>
+        <option>Current</option>
+        <option>Domicilary</option>
+      </select>
+      </label>
+    </fieldset><br>
+
+    <label id="file" for="file">Upload Pasport: <input id="file" type="file" name="acct"/></label> <br>
+    <label id="acct" for="acct">Social Media link:<input id="link" type="text" name="link" placeholder="place Link here" /></label> <br>
+</form>
+
+<footer>
+  <h3>Thanks for coming</h3>
+</footer>
+</body>
+</html>
